@@ -7,16 +7,7 @@
     <meta charset="UTF-8">
     <title>Restaurant Menu</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #333; text-align: center; }
-        h2 { color: #555; border-bottom: 2px solid #ddd; padding-bottom: 5px; margin-top: 20px; }
-        .menu-container { max-width: 600px; margin: 0 auto; }
-        .menu-item { margin-bottom: 15px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
-        .menu-item strong { font-size: 18px; }
-        .menu-item .price { color: #28a745; font-weight: bold; }
-        .error { color: red; text-align: center; }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- External CSS Link -->
 </head>
 <body>
 
@@ -74,11 +65,11 @@
             });
         });
     </script>
-    <!-- Footer -->
-    
-<custom:currentDate />
 
-    
+    <!-- Footer -->
+    <footer>
+        <custom:currentDate />
+    </footer>
 
 </body>
 </html>
